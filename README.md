@@ -1,1 +1,1 @@
-# postgres 11.14 based with HR db preloaded
+# Container based on postgres 11.14 with HR db preloaded
