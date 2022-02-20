@@ -27,6 +27,12 @@ ALTER PROCEDURAL LANGUAGE plpgsql OWNER TO :postgres_user;
 
 SET search_path = public, pg_catalog;
 
+CREATE DATABASE hr;
+
+\connect hr
+
+-- CREATE SCHEMA demo AUTHORIZATION postgres
+
 CREATE TABLE regions (
 	region_id SERIAL PRIMARY KEY,
 	region_name CHARACTER VARYING (25)

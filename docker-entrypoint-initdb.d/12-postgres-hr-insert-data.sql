@@ -10,6 +10,8 @@ SET escape_string_warning = off;
 
 SET search_path = public, pg_catalog;
 
+\connect hr
+
 /*Data for the table regions */
 
 INSERT INTO regions(region_id,region_name) VALUES (1,'Europe');
